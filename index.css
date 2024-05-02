@@ -61,7 +61,6 @@ body {
     text-align: center;
 }
 
-.premise__img,
 .premise__img-inline {
     border-radius: .75rem;
     box-shadow: 0 1rem 2rem -0.5rem rgba(20, 116, 180, 0.25);
@@ -94,12 +93,22 @@ body {
 
 .premise__text-inline {
     margin-top: 4rem;
-    text-align: left;
+    text-align: justify;
     margin-right: 4rem;
 }
 
 .doctors__title {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
+.doctors__text {
+   text-align: center;
+   padding: 1rem;
+   padding-top: 0;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   font-family: "Cinzel";
+   font-weight: 400; 
 }
 
 img {
