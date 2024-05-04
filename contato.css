@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--color-white);
+}
+
+:root {
+    --color-background: #000000;
+    --color-white: #fff;
+    --color-main: #3a4bb8;
+    --color-nav: #24252A;
+}
+
+li,
+a,
+button {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: var(--color-nav);
+}
+
+.logo {
+    cursor: pointer;
+    width: 3rem;
+}
+
+.nav__links {
+    list-style: none;
+    text-align: center;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+#inicio {
+    margin-left: 3rem;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.photo {
+    width: 20rem;
+    border-radius: 999px;
+}
+
+.img {
+    margin-left: 30vh;
+}
+
+.img,
+.info {
+    float: left;
+    display: inline-block;
+}
+
+.info {
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+}
+
+.list__info {
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 0.2rem;
+}
+
+.gmail_icon,
+.github_icon,
+.linkedin_icon {
+    background-color: #24252A;
+    width: 2.5rem;
+    border-radius: 0.6rem;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.social__info {
+    margin-right: 1.2rem;
+}
+
+.list,
+.social {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-family: "Cinzel", serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
